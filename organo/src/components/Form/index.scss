@@ -1,0 +1,21 @@
+@import "../../utils/styles.scss";
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+
+    form {
+        max-width: 80%;
+        background-color: $light-grey;
+        border-radius: 20px;
+        padding: 5vh 4vw;
+        box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+
+        h2 {
+            font-size: 1.6rem;
+            color: $primary-color;
+            padding-bottom: 2rem;
+        }
+    }
+}
