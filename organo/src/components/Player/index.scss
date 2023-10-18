@@ -1,0 +1,47 @@
+@import '../../utils/styles.scss';
+
+.player {
+    width: 280px;
+}
+
+.player .header {
+    background-color: white;
+}
+
+.player img {
+    width: 40%;
+    // width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.player .footer {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    padding-top: 5.5rem;
+
+    padding-bottom: 2.5rem;
+    background-color: $primary-color;
+    background-image: url(../../assets/cover_fut.png);
+
+}
+
+.player .footer h4 {
+    color: $primary-color;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.player .footer h5 {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #212121;
+    padding: 0 1rem;
+}
+
+.player .footer .ger {
+    display: flex;
+    justify-content: center;
+}
